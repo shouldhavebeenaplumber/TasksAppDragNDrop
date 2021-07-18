@@ -1,0 +1,50 @@
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#328BDB 0%, #207BCF 25%, #1973C9 75%, #0A65BF 100%);
+    -fx-text-fill: white;
+}
+
+.list-cell:even {
+    -fx-background-color: #404040;
+	-fx-text-fill: white;
+}
+
+.list-cell:odd {
+    -fx-background-color: #484848;
+	-fx-text-fill: white;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #0093ff;
+    -fx-text-fill: white;
+}
+
+.list-cell {
+    -fx-background-color: #484848;
+	-fx-text-fill: white;
+}
+
+.text-field {
+    -fx-background-color: #A0A0A0;
+	-fx-text-fill: #484848;
+}
+
+.text-field:focused {
+    -fx-background-color: #A0A0A0;
+	-fx-text-fill: black;
+}
+
+.button {
+	-fx-background-color: #336600;
+	-fx-text-fill: white;
+	-fx-padding: 4px 14px;
+}
+
+.button:hover {
+	-fx-background-color: #338800;
+	-fx-text-fill: white;
+	-fx-padding: 4px 14px;
+}
+
+.label {
+	-fx-text-fill: white;
+}
